@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@id/menu"
+        android:title="功能選單"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@id/user_state" android:visible="false" android:title="使用者資訊" app:showAsAction="never" />
+            <item android:id="@id/user_login" android:visible="true" android:title="登入" app:showAsAction="never" />
+            <item android:id="@id/user_logout" android:visible="false" android:title="登出" app:showAsAction="never" />
+            <item android:id="@id/about_program" android:title="關於程式" app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

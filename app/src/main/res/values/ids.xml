@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="menu" />
+    <item name="user_state" type="id" />
+    <item name="user_login" type="id" />
+    <item name="user_logout" type="id" />
+    <item name="about_program" type="id" />
+    <item name="previous_btn" type="id" />
+    <item name="forward_btn" type="id" />
+</resources>
